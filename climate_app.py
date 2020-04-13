@@ -119,7 +119,7 @@ def temp_stats_start(start_date):
   
     session.close()
 
-    # Create a dictionary from the row data and append to a list of all_tobs
+    # Create a dictionary from the row data and append to a list of temp_stats
     temp_stats = []
     for result in results:
         dict_row = {}
@@ -144,7 +144,7 @@ def temp_stats_start_end(start_date, end_date):
   
     session.close()
 
-    # Create a dictionary from the row data and append to a list of all_tobs
+    # Create a dictionary from the row data and append to a list of temp_stats_end
     temp_stats_end = []
     for result in results:
         dict_row = {}
